@@ -1,0 +1,14 @@
+{
+  "name": "mymusicpro",
+  "version": "0.0.1",
+  "description": "This program is designed to stream music to mobile device. Because I want to add my songs that are not on the sites. Due to sanctions, I can't buy a YouTube Music subscription. This program should replace them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DmitryKostrov",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.80.0"
+  }
+}

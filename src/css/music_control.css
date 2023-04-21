@@ -1,0 +1,24 @@
+:root{
+
+}
+
+.leftcolum{
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.music-control{
+    background-color: rgb(194, 226, 255);
+    border-radius: 18px;
+    margin: auto;
+    justify-content: center;
+}
+
+.music-control h1{
+    text-align: center;
+}
+
+.music-control img{
+    width: 400px;
+}

@@ -1,0 +1,13 @@
+:root{
+
+}
+
+.rightcolum{
+    width: 100%;
+}
+.list{
+    padding: 18px;
+    height: 900px;
+    background-color: #b4b4b4;
+    border-radius: 20px;
+}
