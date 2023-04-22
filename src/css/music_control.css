@@ -9,10 +9,11 @@
 }
 
 .music-control{
-    background-color: rgb(194, 226, 255);
+    background-color: #875aff;
     border-radius: 18px;
     margin: auto;
     justify-content: center;
+    height: 100%;
 }
 
 .music-control h1{
@@ -20,5 +21,32 @@
 }
 
 .music-control img{
+    transform: rotate(0deg);
+    padding: 18px;
+    padding-top: 100px;
+    display: block;
+    margin: auto;
     width: 400px;
+}
+
+.music-control form{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 100px;
+    justify-content: center;
+    padding: 40px;
+    padding-bottom: 55px;
+}
+
+.music-control form button{
+    background-color: #573d9d;;
+    border: none;
+    border-radius: 40%;
+    height: 100px;
+    width: 100px;
+}
+.music-control form img{
+    padding: 0;
+    height: 100px;
+    width: 100px;
 }

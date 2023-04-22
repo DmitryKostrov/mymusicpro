@@ -6,8 +6,40 @@
     width: 100%;
 }
 .list{
-    padding: 18px;
     height: 900px;
-    background-color: #b4b4b4;
+    overflow-y: scroll;
+    display: grid;
+    gap: 19px;
+    padding: 18px;
+    background-color: #875aff;
     border-radius: 20px;
+}
+
+.card-music{
+    padding: 10px;
+    display: flex;
+    background-color: #e0e0e0;
+    border-radius: 18px;
+
+}
+.card-music h1{
+    margin: auto;
+    margin-left: 20px;
+
+}
+.card-music h2{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.card-music img{
+    width: 70px;
+}
+
+.card-music button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 100%;
 }
